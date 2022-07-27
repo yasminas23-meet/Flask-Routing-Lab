@@ -16,7 +16,12 @@
         <input type="submit" value="Submit">
     </div>
     <h1> Welcome to Ebay! </h1>
-    <a href ="cart.html"> cart | </a>
+
+    <ul>
+        <li> <a href ="{{ url_for('first') }}"> cart </a> </li>
+        <li> <a href ="{{url_for('fir')}}"> products </a> </li>
+    </ul>
+    
     <a href ="product.html"> products </a>
 <div id="main">
     <h1> trending items</h1>
